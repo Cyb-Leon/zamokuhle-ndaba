@@ -1,19 +1,19 @@
 import styles from "./ProjectsStyles.module.css";
-import Viberr from "../../assets/viberr.png";
-import BigMouth from "../../assets/fresh-burger.png";
-import LearnerTraining from "../../assets/hipsster.png";
-import GetFitWtihMozi from "../../assets/fitlift.png";
+import AmaQanda from "../../assets/amaqanda.png";
+import NexusDJs from "../../assets/localDj.png";
+import Belt from "../../assets/belt.png";
+import Twosly from "../../assets/twosly.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
-      <div className={styles.projectContainer}>
-        <ProjectCard link='https://facebook.com' src={Viberr} h3={'Viberr'} p={'Streaming App'} />
-        <ProjectCard link='https://facebook.com' src={BigMouth} h3={'Big Mouth'} p={'FastFood Restaurant'} />
-        <ProjectCard link='https://facebook.com' src={LearnerTraining} h3={''} p={'Candidate App'} />
-        <ProjectCard link='https://facebook.com' src={GetFitWtihMozi} h3={'Get Fit with Mozi'} p={'Fitness Gym App'} />
+      <div className={styles.projectsContainer}>
+        <ProjectCard link='https://facebook.com' src={AmaQanda} h3={'AmaQanda & Chicken'} p={'Market App'} />
+        <ProjectCard link='https://facebook.com' src={NexusDJs} h3={'Nexus Local'} p={'News Blog'} />
+        <ProjectCard link='https://facebook.com' src={Belt} h3={'Belt'} p={'Apparel App'} />
+        <ProjectCard link='https://facebook.com' src={Twosly} h3={'TwoSly'} p={'NGO Company Site'} />
       </div>
     </section>
   );

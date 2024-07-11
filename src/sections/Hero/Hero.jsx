@@ -46,11 +46,11 @@ function Hero() {
             {" "}
             <img src={xIcon} alt="X icon" />
           </a>
-          <a href="https://github.com/zev219" target="_blank">
+          <a href="https://github.com/cyb-leon" target="_blank">
             {" "}
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/zev219" target="_blank">
+          <a href="https://linkedin.com/in/zamokuhle-ndaba-845452186/" target="_blank">
             {" "}
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
